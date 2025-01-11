@@ -127,9 +127,9 @@ def get_exhibitions():
 if __name__ == "__main__":  # Corrected to __name__
     exhibitions_data = get_exhibitions()  # Use a different variable name to avoid conflicts
     if isinstance(exhibitions_data, list):  # Check if it's a list before iterating
-        for exhibition in exhibitions_data:
-            print(f"Название: {exhibition['title']}")
-            print(f"Дата начала: {exhibition['start_date']}")
-            print(f"Дата окончания: {exhibition['end_date']}")
-            print(f"Описание: {exhibition['description']}")
-            print(f"Ссылка: {exhibition['url']}\n")
+        for exhibition_second in exhibitions_data:
+            print(f"Название: {exhibition_second['title']}")
+            print(f"Дата начала: {exhibition_second['start_date']}")
+            print(f"Дата окончания: {exhibition_second['end_date']}")
+            print(f"Описание: {exhibition_second['description']}")
+            print(f"Ссылка: {exhibition_second['url']}\n")
