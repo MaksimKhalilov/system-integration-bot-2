@@ -12,7 +12,8 @@ sys.path.append('C:/User/student/Desktop/Art/Art')
 
 
 class AtomicExampleBotFunction(AtomicBotFunctionABC):
-    """Example of implementation of atomic function
+    """
+    Example of implementation of atomic function
     """
 
     commands: List[str] = ["example", "ebf"]
