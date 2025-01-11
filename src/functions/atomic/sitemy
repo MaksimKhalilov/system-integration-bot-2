@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Главная страница</h2>
+            <p>Это текст для главной страницы.</p>
+        </section>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Информация о нас.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Контактная информация.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Мой Сайт</p>
+    </footer>
+</body>
+</html>
